@@ -1,0 +1,18 @@
+# Simulacion (ModelSim / iverilog)
+build/
+transcript
+modelsim.ini
+*.wlf
+*.vcd
+
+# Los .hex se ensamblan desde los .s con tools/rvasm.py (regla del curso)
+*.hex
+
+# Quartus
+db/
+incremental_db/
+output_files/
+*.qws
+
+# Office
+~$*
